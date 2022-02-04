@@ -1,0 +1,49 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 3,
+            "releaseType": "Release",
+            "target": 5
+        },
+        "vendor": "example",
+        "bundleName": "com.example.litwearable_3",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777217,
+                "labelId": 16777216,
+                "icon": "$media:icon",
+                "name": "default",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "homeAbility": false
+            }
+        ],
+        "deviceType": [
+            "liteWearable"
+        ],
+        "distro": {
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "default"
+            }
+        ]
+    }
+}

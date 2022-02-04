@@ -1,0 +1,10 @@
+[
+    {
+        "hapPath": "entry-bin-debug-lite-signed.hap",
+        "device": "liteWearable"
+    },
+    {
+        "hapPath": "entry-debug-lite-signed.hap",
+        "device": "smartVision"
+    }
+]

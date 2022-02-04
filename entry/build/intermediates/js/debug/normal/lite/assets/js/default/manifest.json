@@ -1,0 +1,14 @@
+{
+    "appID": "com.example.litwearable_3",
+    "appName": "$string:entry_MainAbility",
+    "versionName": "1.0.0",
+    "versionCode": 1000000,
+    "minPlatformVersion": 3,
+    "pages": [
+        "pages/index/index"
+    ],
+    "deviceType": [
+        "liteWearable",
+        "smartVision"
+    ]
+}
