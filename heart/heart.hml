@@ -1,0 +1,12 @@
+<div class="container">
+    <text class="title">
+        使用前请先佩戴手表
+    </text>
+    <text class="heart">
+        心率： {{ heart_rate  }}
+    </text>
+    <text class="step">
+        步数： {{ step_number }}
+    </text>
+    <input class="start_btn" type="button" value="开始" onclick="clickAction"/>
+</div>

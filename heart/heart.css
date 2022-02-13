@@ -1,0 +1,34 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    left: 0px;
+    top: 0px;
+    width: 466px;
+    height: 466px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    color: bisque;
+}
+.heart{
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+.step{
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+.start_btn{
+    margin-top: 30px;
+    width: 250px;
+}
