@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <TickTimer
+        ohos:id="$+id:tick_timer"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:center_in_parent="true"
+        ohos:text="$string:tick_timer"
+        ohos:text_color="#FF0E0909"
+        ohos:text_size="32fp"/>
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:text="开始计时"
+        ohos:top_margin="70vp"
+        ohos:top_padding="0vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="80vp"
+        ohos:left_padding="80vp"
+        ohos:text_color="#FF050101"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"/>
+    <Button
+        ohos:id="$+id:clear_button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:text="清除计时"
+        ohos:top_padding="0vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="80vp"
+        ohos:left_padding="80vp"
+        ohos:text_color="#FF050101"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"/>
+
+</DirectionalLayout>
